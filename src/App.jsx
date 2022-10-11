@@ -4,7 +4,7 @@ import "regenerator-runtime"
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Cart from "./pages/Cart";
-import WishList from "./pages/Favorites";
+import Favorites from "./pages/Favorites";
 import ProductDetail from "./components/ProductDetail";
 import ProductList from "./components/ProductList";
 import { Contact } from "./pages/Contact";
@@ -39,7 +39,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/cart" element={<Cart />} />
-          <Route path="/wishlist" element={<WishList />} />
+          <Route path="/wishlist" element={<Favorites />} />
           <Route path="/products/:id" element={<ProductDetail />} />
           <Route path="/products" element={<ProductList />} />
           

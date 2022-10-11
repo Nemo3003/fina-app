@@ -15,7 +15,7 @@ from "react-speech-recognition"
 import Home from "../pages/Home"
 import About from "../pages/About"
 import Cart from "../pages/Cart";
-import WishList from "../pages/Favorites";
+import Favorites from "../pages/Favorites";
 import ProductList from "../components/ProductList";
 import { Contact } from "../pages/Contact";
 import { LoginPage } from "../pages/auth/LoginPage";
@@ -79,7 +79,7 @@ export const NavBar = () => {
     <Route path="/" element={<Home />} />
     <Route path="/about" element={<About />} />
     <Route path="/cart" element={<Cart />} />
-    <Route path="/wishlist" element={<WishList />} />
+    <Route path="/wishlist" element={<Favorites />} />
     <Route path="/products" element={<ProductList />} />
     
     <Route path="/contact" element={<Contact/>} />
