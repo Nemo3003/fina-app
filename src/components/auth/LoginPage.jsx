@@ -27,7 +27,8 @@ export const LoginPage = () => {
     });
   }
 
-  const onGoogleSignIn = ()=>{
+  const onGoogleSignIn = (event)=>{
+    event.preventDefault();
     console.log('onGoogleSignIn');
     dispatch(startGoogleSignIn());
     navigate("/", {
