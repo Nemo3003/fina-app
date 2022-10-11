@@ -10,7 +10,7 @@ Tendrán que desarrollar una aplicación desde cero con temática libre, deberá
     React Router V6
     SDK Firebase V9 
     Axios
-    Repositorio en Github, con Readme detallando.
+    Repositorio en Github, con Readme detallado.
 
 Fecha máxima de entrega para el viernes 14 de octubre.
 
