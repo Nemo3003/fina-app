@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { NavLink, useNavigate } from "react-router-dom";
-import { AiFillHeart } from "react-icons/ai";
 import { IoLogInOutline } from "react-icons/io5";
 import { useCheckAuth } from "../hooks/useCheckAuth";
 import { startLogout } from "../Redux/auth/thunks";

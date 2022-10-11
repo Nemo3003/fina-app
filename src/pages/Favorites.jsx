@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import ProductCard from "../Components/ProductCard";
+import ProductCard from "../components/ProductCard";
 import { removeAll } from "../Redux/wishlist/WishListSlice";
 import noitem from "../assets/noitem.jpg";
 import uuid from "react-uuid";

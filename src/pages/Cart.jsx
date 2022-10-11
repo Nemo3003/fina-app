@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Swal from 'sweetalert2'
-import EmptyCart from "../Components/EmptyCart";
+import EmptyCart from "../components/EmptyCart";
 import { useCheckAuth } from "../hooks/useCheckAuth";
 import { useNavigate } from "react-router-dom";
 import {Button} from "react-bootstrap"

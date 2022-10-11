@@ -1,5 +1,5 @@
 import React from "react";
-import Land from "../Components/Land";
+import Land from "../components/Land";
 
 const Home = () => {
   return (
