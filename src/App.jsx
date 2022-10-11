@@ -5,14 +5,14 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Cart from "./pages/Cart";
 import WishList from "./pages/Favorites";
-import ProductDetail from "./Components/ProductDetail";
-import ProductList from "./Components/ProductList";
+import ProductDetail from "./components/ProductDetail";
+import ProductList from "./components/ProductList";
 import { Contact } from "./pages/Contact";
 import { LoginPage } from "./pages/auth/LoginPage";
 import { RegisterPage } from "./pages/auth/RegisterPage";
 import ErrorPage from "./pages/ErrorPage";
-import Footer from "./Components/Footer";
-import {NavBar} from "./Components/NavBar";
+import Footer from "./components/Footer";
+import {NavBar} from "./components/NavBar";
 import {useState} from "react";
 import "./styles/main.css"
 
