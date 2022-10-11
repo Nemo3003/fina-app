@@ -1,7 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import cart from "../assets/cart.jpg";
-
 
 const EmptyCart = () => {
   const navigate = useNavigate();
