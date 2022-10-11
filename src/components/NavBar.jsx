@@ -16,7 +16,7 @@ import Home from "../pages/Home"
 import About from "../pages/About"
 import Cart from "../pages/Cart";
 import WishList from "../pages/Favorites";
-import ProductList from "../Components/ProductList";
+import ProductList from "../components/ProductList";
 import { Contact } from "../pages/Contact";
 import { LoginPage } from "../pages/auth/LoginPage";
 import { RegisterPage } from "../pages/auth/RegisterPage";
