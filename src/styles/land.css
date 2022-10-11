@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pictura{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 12rem;
+    color: rgb(222, 217, 228);
+}
+
+h1{
+    position: absolute;
+    top: 30%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 1em;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+        1px 9px 3px rgba(16,16,16,0.4),
+        1px 12px 5px rgba(16,16,16,0.2),
+        1px 15px 25px rgba(16,16,16,0.2),
+        1px 15px 30px rgba(16,16,16,0.4);
+    position: absolute;
+    top: 30%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 1em;
+    color: #f5f5f5;
+}
+.div-text{
+    position: absolute;
+    top: 50%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 1em;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+        1px 9px 3px rgba(16,16,16,0.4),
+        1px 12px 5px rgba(16,16,16,0.2),
+        1px 15px 25px rgba(16,16,16,0.2),
+        1px 15px 30px rgba(16,16,16,0.4);
+    position: absolute;
+    top: 50%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 1em;
+    color: #f5f5f5;
+    
+}
