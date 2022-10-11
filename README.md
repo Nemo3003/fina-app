@@ -20,7 +20,8 @@ Fecha máxima de entrega para el viernes 14 de octubre.
 
 #### Autorizacion con Firebase con e-mail y cuenta de google
 
-#### Uso de reconocimiento de voz para la navegacion el cual puede ser activado en la barra de navegacion
+#### Uso de reconocimiento de voz para la navegacion el cual puede ser activado en la barra de navegacion. Seleccionar "start" en la barra de navegacion,
+Luego, decir "open login" o "go to login" y deberia de llevarte al login.
 
 #### Custom hooks para forms, autenticacion y para la utilizacion de axios
 
