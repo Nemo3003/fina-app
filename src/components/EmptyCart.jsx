@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import cart from "../assets/empty_cart.webp"
 
 const EmptyCart = () => {
   const navigate = useNavigate();
