@@ -5,7 +5,7 @@ import { removeAll } from "../Redux/wishlist/WishListSlice";
 import uuid from "react-uuid";
 import { useCheckAuth } from "../hooks/useCheckAuth";
 import { NavLink } from "react-router-dom";
-const noitem = require("../assets/empty_cart.webp")
+import noitem from "../assets/empty_cart.webp";
 
 const Favorites = () => {
   const dispatch = useDispatch();
