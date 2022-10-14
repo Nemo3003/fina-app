@@ -11,10 +11,10 @@
     justify-content: space-around;
     color:rgb(236, 229, 229);
     font-size: x-large;
-    margin: 2rem;
     gap: 2rem;
     background-color: black;
     padding: 1rem;
     border-radius: 2rem;
     padding-bottom: -24rem;
+    margin: 3rem 2rem 5rem 2rem;
   }

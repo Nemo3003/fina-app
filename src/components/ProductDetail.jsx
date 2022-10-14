@@ -10,6 +10,7 @@ import {
   addToWishList,
   removeFromWishList,
 } from "../Redux/wishlist/WishListSlice";
+import "../styles/products.css"
 
 
 const ProductDetail = () => {
@@ -70,7 +71,7 @@ const ProductDetail = () => {
       </Breadcrumb>
       <h1>{data?.title}</h1>
       <hr className="mb-4" />
-      <div >
+      <div className="img-prod">
         <div style={{display:'flex'}}>
           <img
             src={data?.image}
@@ -86,7 +87,7 @@ const ProductDetail = () => {
           <h6>Categoría {data?.category}</h6>
           <p className="py-1">{data?.description}</p>
           <h5>Precio: $ {formatNumber(Math.floor((data?.price * 150)))}</h5>
-          <button className="btn btn-primary mt-2" onClick={productHandler}>
+          <button className="btn btn-primary mt-2 loco" onClick={productHandler}>
             Comprar
           </button>
           <button
